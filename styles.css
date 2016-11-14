@@ -1,0 +1,64 @@
+body {
+
+	background: #f7dcd9;
+
+}
+
+h1 {
+    font-family: "Lucida Bright",Georgia,serif;
+    font-width: 1px;
+    position: relative;
+    left: 400px;
+}
+
+div {
+
+
+	width: 75%;
+ 
+}
+#mainlist {
+  border-left: 5px solid red;
+  padding: 45px;
+  margin-left: 5px;
+  font-size: 20px;
+  background-image: url("ruby.png");
+}
+  a:visited { 
+    color: pink;  
+}
+
+ul {
+
+	font-style: italic; 
+	font-weight: bold;
+}
+#chrc {
+   background-image: url("ruby sm.png");
+   
+   font-style: Verdana; 
+	font-weight: bold;
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+	border-left: 15px solid red;
+	padding: 45px;
+}
+footer { 
+	position: absolute;
+	left: 400px;
+	font-family: arial,sans-serif;
+	font-size: 10px;
+
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 80%
+
+  }
+
+  }
